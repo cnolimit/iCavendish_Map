@@ -1,0 +1,157 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:500italic,400);
+#pathDirection{
+	border-top: 2px solid #B6B6B6;
+	width: 80%;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-bottom: 10px;
+	font-family: 'Roboto',Arial,sans-serif;
+	font-size: 1.2em;
+	opacity: 0.8;
+}
+.pre-circle{
+	display: none;
+	margin-top: 50px;
+	margin-left: 140px;
+}
+#journ{
+	display: none;
+}
+.hide{
+	display: none;
+}
+#journey_box{
+	width: 400px;
+	height: 80%;
+	float: left;
+	background-color: #FAFAFA;
+	border: 0px solid black;
+	z-index: 99;
+	position: absolute;
+	-webkit-box-shadow: 4px 0px 5px 0px rgba(50, 50, 50, 0.42);
+	-moz-box-shadow:    4px 0px 5px 0px rgba(50, 50, 50, 0.42);
+	box-shadow:         4px 0px 5px 0px rgba(50, 50, 50, 0.42);
+	display: none;
+}
+
+#map_box{
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	float: right; 
+	overflow: hidden;
+	display: inline-block;
+}
+/*Static journey panel*/
+.journey_panel{
+	width: 100%;
+	height: 80px;
+	border: 0px solid black;
+	padding: 15px;
+	margin-left: 10px;
+}
+.journey_panel h1{
+	font-size: 1.2em;
+	font-weight: 500;
+	padding-top: 0;
+	color: #212121;
+	margin: 0;
+	padding: 0;
+	padding-top: 5px;
+	opacity: 0.9;
+	margin-top: -20px;
+}
+.journey_panel h2{
+	font-size: 1em;
+	padding-top: 0;
+	color: #212121;
+	padding-top: 5px;
+	opacity: 0.6;
+	margin: 0;
+	padding: 0;
+	margin-top: -40px;
+	margin-bottom: 20px;
+}
+.journey_panel .fa-street-view{
+	color: #FFC400;
+	font-size: 2em;
+	margin-bottom: 5px;
+}
+
+/*Appending List*/
+.journey_panel_list{
+	width: 100%;
+	height: 80px;
+	border: 0px solid black;
+	padding: 15px;
+	display: none;
+}
+.journey_panel_list h1{
+	font-size: 1.2em;
+	font-weight: 500;
+	padding-top: 0;
+	color: #212121;
+	padding: 25px 0 0 0;
+	opacity: 0.9;
+}
+.journey_panel_list h2{
+	font-size: 1em;
+	padding-top: 0;
+	color: #212121;
+	padding: 5px 0 10px 0;
+	opacity: 0.6;
+}
+.journey_panel_list .linebar{
+	z-index: 101;
+	position: absolute;
+	width: 90%;
+	margin: 10px 5px 10px -10px ;
+	border-top: 1px solid black;
+	opacity: 0.2;
+}
+
+#journey_box #head{
+	font-family: 'Roboto',Arial,sans-serif;
+}
+#journey_box #head h2{
+	background-color: #2196F3;
+	margin-top: 0;
+	padding:20px 100px 20px 20px;
+	text-align: left;
+	font-size: 1em;
+}
+
+#journey_box .mdi-hardware-keyboard-backspace{
+	font-size: 2em;
+	float: right;
+	margin-right: -80px;
+	margin-top: 0px;
+}
+
+.btnMap{
+	font-size: 1.2em;
+	font-weight: 300;
+	color: #2196F3;
+	z-index: 5;
+	position: absolute;
+	left: 15px;
+	top: 380px;
+
+	/* Starting point for div */
+    -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    
+    transition:transform 0.5s;	
+    -ms-transform-transition: -ms-transform  ease 0.5s,  width ease 0.5s, border-radius ease 0.5s;
+    -webkit-transition:-webkit-transform ease 0.5s, border-radius ease 0.5s , width ease 0.5s;
+}
+.btnMap:hover{
+	    /* Rotate div */
+    -ms-transform: rotate(360deg); /* IE 9 */
+    -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+    transform: rotate(360deg);
+
+}

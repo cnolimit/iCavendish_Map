@@ -1,0 +1,29 @@
+@media screen and (max-width: 300px) {
+    body {
+        background-color: black;
+    }
+
+
+
+	#journey_box{
+		width: 50%;
+		height: 80%;
+		float: left;
+		background-color: #FAFAFA;
+		border: 0px solid black;
+		z-index: 99;
+		position: absolute;
+		-webkit-box-shadow: 4px 0px 5px 0px rgba(50, 50, 50, 0.42);
+		-moz-box-shadow:    4px 0px 5px 0px rgba(50, 50, 50, 0.42);
+		box-shadow:         4px 0px 5px 0px rgba(50, 50, 50, 0.42);
+		display: block;
+
+	}
+	#overlay{
+		top:75%;
+	}
+	footer{
+		font-size: 3em;
+		margin-bottom: -500px;
+	}
+}

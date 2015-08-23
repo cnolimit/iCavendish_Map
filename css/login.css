@@ -1,0 +1,56 @@
+.login_container{
+	width: 400px;
+	height: 530px;
+	text-align: center;
+	margin: 0 auto;
+	border: 1px solid black;
+	margin-top: 20px;
+	margin-bottom: 10%;
+	padding-right: 15px;
+}
+.login_container img{
+	width: 150px;
+	height: 150px;
+	margin-top: 35px;
+	margin-bottom: 40px;
+}
+.login_container input{
+	width: 330px;
+	font-size: 1.5em;
+}
+.reg_container{
+	width: 400px;
+	height: 620px;
+	text-align: center;
+	margin: 0 auto;
+	border: 1px solid black;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-right: 15px;
+}
+.reg_container img{
+	width: 150px;
+	height: 150px;
+	margin-top: 35px;
+	margin-bottom: 20px;
+}
+.reg_container input{
+	width: 330px;
+	font-size: 1.5em;
+}
+.required{
+	color: #F44336;
+	font-size: 2em;
+
+}
+#msg{
+	float: right;
+}
+.navImg{
+	width: 50px;
+	height: 50px;
+	margin-top: 5px;
+	padding-bottom: 8px;
+}
+.reg_form{
+}

@@ -1,0 +1,38 @@
+/*#Description Overlay CSS*/
+
+#descriptionOverlay {
+	z-index: 9999;
+	top: 20%;
+	left: 35%;
+	position: absolute;
+	display: none;
+}
+#imgContainer:nth-child(1){
+	border: 2px solid #2196F3;
+}
+#card{
+	width: 650px;
+	height: 600px;
+	z-index: 999;
+	left: 550px;
+	top: 90px;
+	position: absolute;
+	display: none;
+}
+.card-image img{
+	height: 450px;
+}
+.cardBtn{
+	cursor: pointer;
+	float: right;
+	margin-top: 20px;
+}
+#des_area{
+	width: 1000px;
+	height: 100px;
+	border: none;
+	border-bottom: 1px solid black;
+}
+#des_area:focus{
+	outline: 0;
+}
